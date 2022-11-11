@@ -1,6 +1,6 @@
 // MXPagerView.h
 //
-// Copyright (c) 2017 Maxime Epain
+// Copyright © 2019 Maxime Epain
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -154,6 +154,11 @@ typedef NS_ENUM(NSInteger, MXPagerViewTransitionStyle) {
  The pager progress, from 0 to the number of page.
  */
 @property (nonatomic, readonly) CGFloat progress;
+
+/**
+ Reloads all the pages instead of particular index and neighbour one (By default 0 and 1 index only get loaded)
+ */
+@property (nonatomic) BOOL isReloadAllPages;
 
 /**
  Reloads everything from scratch. redisplays pages.
