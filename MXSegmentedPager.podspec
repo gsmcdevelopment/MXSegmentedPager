@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/Dharanis1/MXSegmentedPager"
   s.license          = 'MIT'
   s.author           = { "Maxime Epain" => "maxime.epain@gmail.com" }
-  s.source           = { :git => "https://github.com/Dharanis1/MXSegmentedPager.git", :tag => 5.0.2 }
+  s.source           = { :git => "https://github.com/Dharanis1/MXSegmentedPager.git" }
   s.social_media_url = 'https://twitter.com/MaximeEpain'
 
   s.platform     = :ios, '10.0'
