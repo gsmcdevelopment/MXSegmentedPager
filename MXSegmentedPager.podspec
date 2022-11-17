@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
                        The integration of [MXParallaxHeader](https://github.com/maxep/MXParallaxHeader) allows you to add an parallax header on top while keeping a reliable scrolling effect.
                        DESC
 
-  s.homepage         = "https://github.com/maxep/MXSegmentedPager"
+  s.homepage         = "https://github.com/Dharanis1/MXSegmentedPager"
   s.license          = 'MIT'
   s.author           = { "Maxime Epain" => "maxime.epain@gmail.com" }
-  s.source           = { :git => "https://github.com/maxep/MXSegmentedPager.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Dharanis1/MXSegmentedPager.git", :tag => 5.0.2 }
   s.social_media_url = 'https://twitter.com/MaximeEpain'
 
   s.platform     = :ios, '10.0'
