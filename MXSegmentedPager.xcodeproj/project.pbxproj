@@ -50,7 +50,7 @@
 		9C1633E81DA646CA001FB468 /* MXParallaxHeader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C16335A1DA58D25001FB468 /* MXParallaxHeader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C73FA3E22FAFD170021C818 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C73FA3D22FAFD170021C818 /* WebKit.framework */; };
 		9C73FA3F22FAFD200021C818 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C73FA3D22FAFD170021C818 /* WebKit.framework */; };
-		9C7C424F22F9C3A8005E4109 /* MXSegmentedControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7C424E22F9C3A8005E4109 /* MXSegmentedControl.framework */; };
+		9C7C424F22F9C3A8005E4109 /* MXSegmentedControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7C424E22F9C3A8005E4109 /* MXSegmentedControl.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		9C7C425022F9C3B1005E4109 /* MXSegmentedControl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7C424E22F9C3A8005E4109 /* MXSegmentedControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C7C425122F9C3B7005E4109 /* MXSegmentedControl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7C424E22F9C3A8005E4109 /* MXSegmentedControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -721,6 +721,8 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Framework/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.maxep.MXSegmentedPager;
@@ -746,6 +748,8 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Framework/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.maxep.MXSegmentedPager;
