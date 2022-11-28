@@ -23,7 +23,7 @@
 @import UIKit;
 @import MXSegmentedControl;
 @import MXParallaxHeader;
-@import MXPagerViewReloadUpdate;
+@import MXPagerView;
 
 NS_ASSUME_NONNULL_BEGIN
 
