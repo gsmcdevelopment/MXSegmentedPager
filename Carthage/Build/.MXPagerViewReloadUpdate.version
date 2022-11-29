@@ -1,0 +1,26 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "d2be745a7515c3b6a56e6e0023b10001f3652bfe",
+  "iOS" : [
+    {
+      "hash" : "15cccb46bfbe5e9f93903f55595cbd9c4be881e60a231e050292fe4d86869d4c",
+      "name" : "MXPagerViewReloadUpdate",
+      "container" : "MXPagerViewReloadUpdate.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "d99059d08ec584adc2da80429405e51307e7586397e5d25abb68d2bbc5da0834",
+      "name" : "MXPagerViewReloadUpdate",
+      "container" : "MXPagerViewReloadUpdate.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}

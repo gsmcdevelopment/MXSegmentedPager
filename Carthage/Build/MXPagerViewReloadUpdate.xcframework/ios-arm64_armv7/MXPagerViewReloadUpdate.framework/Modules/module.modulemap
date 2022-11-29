@@ -1,0 +1,6 @@
+framework module MXPagerViewReloadUpdate {
+  umbrella header "MXPagerViewReloadUpdate.h"
+
+  export *
+  module * { export * }
+}

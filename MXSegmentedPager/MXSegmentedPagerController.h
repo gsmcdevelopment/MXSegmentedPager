@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 @import UIKit;
-@import MXPagerView;
+@import MXPagerViewReloadUpdate;
 
 #import "MXSegmentedPager.h"
 
